@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { margin: 0; padding: 20px; background: #f4f4f4; font-family: sans-serif; }
+        .card-container { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+        .card {
+            width: 197px; height: 279px;
+            background: #03116D; color: white;
+            border-radius: 18px; padding: 16px;
+            display: flex; flex-direction: column; justify-content: space-between;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            text-decoration: none;
+        }
+        .card img { width: 80px; height: 80px; margin: 0 auto 12px; }
+        .card h3 { font-size: 16px; text-align: center; margin: 0; }
+        .card p { font-size: 12px; text-align: center; margin: 8px 0 0; }
+        .card .button { background: #FFD700; color: #03116D; padding: 8px; border-radius: 8px; text-align: center; margin-top: 12px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="card-container">
+        <a class="card" href="https://link1.com" target="_blank">
+            <img src="https://yourimage.com/disk.png" alt="Disk App">
+            <h3>Disk Application</h3>
+            <p>Manage disk tasks</p>
+            <div class="button">Open App</div>
+        </a>
+        <a class="card" href="https://link2.com" target="_blank">
+            <img src="https://yourimage.com/helpdesk.png" alt="Helpdesk">
+            <h3>Helpdesk</h3>
+            <p>Support center</p>
+            <div class="button">Open App</div>
+        </a>
+        <!-- Add more cards as needed -->
+    </div>
+</body>
+</html>
